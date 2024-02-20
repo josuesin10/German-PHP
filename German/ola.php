@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-     <h1>13433. Estaciones del Año</h1>
+     <h1 style="text-align: center; background-color: red;">113433.Estaciones del año</h1>
+     <center>
      <table border="1">
         <tr>
             <td>Puntos</td>
@@ -24,6 +25,7 @@
             <td>Tamaño límite de entrada (bytes)</td>
         </tr>
      </table>
+     </center>
      <h2>Descripción</h2>
      <p>
      Brithany quiere combinar la programación con el inglés, y se encuentra empezando
@@ -72,28 +74,252 @@
         </tr>
     </table>
     <?php
+    $d=15;
+    $m=10;
+    if($d>28 and $m==2 and $m > 12 or $d > 31 or $m <1 and $d<1)
+    {
+        echo "<br>no existe la fecha";
+    }
+    else if ($d>=21 and $d<=31 and $m==12)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=31 and $m==1)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=28 and $m==2)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=20 and $m==3)
+    {
+        echo "<br>Winter ❄";
+    }
+    elseif($d>=21 and $d<=31 and $m==3)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=30 and $m==4)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=31 and $m==5)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=21 and $m==6)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d<=22 and $d>=30 and $m==6)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=31 and $m==7)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=31 and $m==8)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=22 and $m==9)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d<=23 and $d>=30 and $m==9)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=31 and $m==10)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=30 and $m==11)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=20 and $m==12)
+    {
+        echo "<br>Winter ❄";
+    }
+    else
+    {
+        echo "<br>no existe la fecha";
+    }
 
+    $d=22;
+    $m=3;
+    if($d>28 and $m==2 and $m > 12 or $d > 31 or $m <1 and $d<1)
+    {
+        echo "<br>no existe la fecha";
+    }
+    else if ($d>=21 and $d<=31 and $m==12)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=31 and $m==1)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=28 and $m==2)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=20 and $m==3)
+    {
+        echo "<br>Winter ❄";
+    }
+    elseif($d>=21 and $d<=31 and $m==3)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=30 and $m==4)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=31 and $m==5)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=21 and $m==6)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d<=22 and $d>=30 and $m==6)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=31 and $m==7)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=31 and $m==8)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=22 and $m==9)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d<=23 and $d>=30 and $m==9)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=31 and $m==10)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=30 and $m==11)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=20 and $m==12)
+    {
+        echo "<br>Winter ❄";
+    }
+    else
+    {
+        echo "<br>no existe la fecha";
+    }
 
+    $d=31;
+    $m=4;
+    if($d>28 and $m==2 and $m > 12 or $d > 31 or $m <1 and $d<1)
+    {
+        echo "<br>no existe la fecha";
+    }
+    else if ($d>=21 and $d<=31 and $m==12)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=31 and $m==1)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=28 and $m==2)
+    {
+        echo "<br>winter ❄";
+    }
+    elseif($d>=1 and $d<=20 and $m==3)
+    {
+        echo "<br>Winter ❄";
+    }
+    elseif($d>=21 and $d<=31 and $m==3)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=30 and $m==4)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=31 and $m==5)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d>=1 and $d<=21 and $m==6)
+    {
+        echo "<br>Spring 🌺";
+    }
+    elseif($d<=22 and $d>=30 and $m==6)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=31 and $m==7)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=31 and $m==8)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d>=1 and $d<=22 and $m==9)
+    {
+        echo "<br>Summer ☀";
+    }
+    elseif($d<=23 and $d>=30 and $m==9)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=31 and $m==10)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=30 and $m==11)
+    {
+        echo "<br>Fall 🍁";
+    }
+    elseif($d>=1 and $d<=20 and $m==12)
+    {
+        echo "<br>Winter ❄";
+    }
+    else
+    {
+        echo "<br>no existe la fecha";
+    }
     ?>
     <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-    <h1>7294. ¿Cuántos valen 7?</h1>
-    <table border="1">
-        <tr>
-            <td>Puntos</td>
-            <td>10.21</td>
-            <td>Límite de memoria</td>
-            <td>32 MiB</td>
-        </tr>
-        <tr>
-            <td>Límite de tiempo (caso)</td>
-            <td>1s</td>
-            <td>10 KiB</td>
-            <td>1m0s</td>
-        </tr>
-        <tr>
-            <td>Tamaño límite de entrada (bytes)</td>
-        </tr>
-     </table>
+    <h1 style="text-align: center; background-color: red;">7294.¿Cuántos valen 7?</h1>
+    <center>
+        <table border="1">
+            <tr>
+                <td>Puntos</td>
+                <td>10.21</td>
+                <td>Límite de memoria</td>
+                <td>32 MiB</td>
+            </tr>
+            <tr>
+                <td>Límite de tiempo (caso)</td>
+                <td>1s</td>
+                <td>10 KiB</td>
+                <td>1m0s</td>
+            </tr>
+            <tr>
+                <td>Tamaño límite de entrada (bytes)</td>
+            </tr>
+        </table>
+     </center>
      <h2>Descripción</h2>
      <p>
         Escribe un programa que lea dos enteros e imprima cuántos de ellos valen 7.
@@ -126,38 +352,149 @@
         </tr>
     </table>
     <?php
-    $v3 = 0;
-
-    if ($v1 == 7) {
-        $v3++;
-    }
-    if ($v2 == 7) {
-        $v3++;
-    }
-    echo $v3;
-    
-    ?>
+        $a=-3;
+        $b=8;
+        if ($a==7&&$b==7)
+        {
+        echo "<br>el mayor de estos numeros de este ejemplo es: a y b (2) ";
+        }
+        else if ($a<7&&$b==7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: b (1) ";
+        }
+        else if($a>7&&$b==7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: b (1) ";
+        }
+        else if($a==7&&$b<7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: a (1) ";
+        }
+        else if($a==7&&$b>7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: a (1) ";
+        }
+        else if($a<7&&$b<7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: ninguno (0) ";
+        }
+        else if($a<7&&$b>7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: ninguno (0) ";
+        }
+        $a=7;
+        $b=57;
+        if ($a==7&&$b==7)
+        {
+        echo "<br>el mayor de estos numeros de este ejemplo es: a y b (2) ";
+        }
+        else if ($a<7&&$b==7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: b (1) ";
+        }
+        else if($a>7&&$b==7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: b (1) ";
+        }
+        else if($a==7&&$b<7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: a (1) ";
+        }
+        else if($a==7&&$b>7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: a (1) ";
+        }
+        else if($a<7&&$b<7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: ninguno (0) ";
+        }
+        else if($a<7&&$b>7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: ninguno (0) ";
+        }
+        $a=62;
+        $b=7;
+        if ($a==7&&$b==7)
+        {
+        echo "<br>el mayor de estos numeros de este ejemplo es: a y b (2) ";
+        }
+        else if ($a<7&&$b==7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: b (1) ";
+        }
+        else if($a>7&&$b==7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: b (1) ";
+        }
+        else if($a==7&&$b<7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: a (1) ";
+        }
+        else if($a==7&&$b>7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: a (1) ";
+        }
+        else if($a<7&&$b<7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: ninguno (0) ";
+        }
+        else if($a<7&&$b>7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: ninguno (0) ";
+        }
+        $a=7;
+        $b=7;
+        if ($a==7&&$b==7)
+        {
+        echo "<br>el mayor de estos numeros de este ejemplo es: a y b (2) ";
+        }
+        else if ($a<7&&$b==7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: b (1) ";
+        }
+        else if($a>7&&$b==7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: b (1) ";
+        }
+        else if($a==7&&$b<7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: a (1) ";
+        }
+        else if($a==7&&$b>7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: a (1) ";
+        }
+        else if($a<7&&$b<7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: ninguno (0) ";
+        }
+        else if($a<7&&$b>7)
+        {
+            echo "<br>el mayor de estos numeros de este ejemplo es: ninguno (0) ";
+        }
     ?>
 
     <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-    <h1>7341. El mayor de tres números</h1>
-    <table border="1">
-        <tr>
-            <td>Puntos</td>
-            <td>23.98</td>
-            <td>Límite de memoria</td>
-            <td>32 MiB</td>
-        </tr>
-        <tr>
-            <td>Límite de tiempo (caso)</td>
-            <td>1s</td>
-            <td>10 KiB</td>
-            <td>1m0s</td>
-        </tr>
-        <tr>
-            <td>Tamaño límite de entrada (bytes)</td>
-        </tr>
-    </table>
+    <h1 style="text-align: center; background-color: red;">7341. El mayor de tres números</h1>
+    <center>
+        <table border="1">
+            <tr>
+                <td>Puntos</td>
+                <td>23.98</td>
+                <td>Límite de memoria</td>
+                <td>32 MiB</td>
+            </tr>
+            <tr>
+                <td>Límite de tiempo (caso)</td>
+                <td>1s</td>
+                <td>10 KiB</td>
+                <td>1m0s</td>
+            </tr>
+            <tr>
+                <td>Tamaño límite de entrada (bytes)</td>
+            </tr>
+        </table>
+    </center>
         <h2>Descripción</h2>
         <p>
             Realiza un problema que imprima el mayor de tres números.
@@ -190,6 +527,69 @@
             <td>810</td>
         </tr>
     </table>
+    <?php
+        $a=10;
+        $b=81;
+        $c=101;
+        if($a>=$b and $a>=$c)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $a;
+        }
+        elseif($b>=$a && $b>=$c)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $b;
+        }
+        elseif($c>=$a && $c >=$b)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $c;
+        }
+        $a=10;
+        $b=8;
+        $c=-7;
+        if($a>=$b and $a>=$c)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $a;
+        }
+        elseif($b>=$a && $b>=$c)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $b;
+        }
+        elseif($c>=$a && $c >=$b)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $c;
+        }
+        $a=11;
+        $b=11;
+        $c=11;
+        if($a>=$b and $a>=$c)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $a;
+        }
+        elseif($b>=$a && $b>=$c)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $b;
+        }
+        elseif($c>=$a && $c >=$b)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $c;
+        }
+        $a=10;
+        $b=810;
+        $c=101;
+        if($a>=$b and $a>=$c)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $a;
+        }
+        elseif($b>=$a && $b>=$c)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $b;
+        }
+        elseif($c>=$a && $c >=$b)
+        {
+            echo "<br>el numero mayor de este ejemplo es de : ", $c;
+        }
+    ?>
+
         
 </body>
 </html>
